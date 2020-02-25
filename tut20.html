@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box content </title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background-color: #e8cdcd;
+            border:3px solid rgb(64, 45, 90);
+            border-radius: 25px;
+            /* we can set padding/margin for top,left right bottom like this  */
+            /* padding: 60px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            padding-left: 25px;
+            padding-right: 100px; */
+            /* margin: 50px; */
+            /* margin-top: 34px; */
+            /* margin-left: 56px; */
+            /* margin-bottom: 45px; */
+            /* margin-right: 56px; */
+            padding: 25px 45px 56px 78px; /* padding=top right bottom left; */
+            margin: 25px 45px 56px 78px; /* margin=top right bottom left; */
+            padding: 24px 45px;/* padding: y(top/bottom) x(left/right); */
+            margin: 24px 45px;/* margin: y(top/bottom) x(left/right); */
+            margin: 20px 20px; 
+            width: 250px;
+            box-sizing: border-box;
+        }
+        body{
+
+            background-color: skyblue;
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>
+            its a heading
+        </h3>
+        <p id="first">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, dignissimos.
+        </p>
+        </div>
+    <div class="container">
+        <h3>
+            its a heading
+        </h3>
+        <p id="second">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, dignissimos.
+        </p>
+    </div>
+    <div class="container">
+        <h3>
+            its a heading
+        </h3>
+        <p id="third">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, dignissimos.
+        </p>
+    </div>
+    
+</body>
+</html>

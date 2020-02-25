@@ -4,231 +4,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="its a description">
-    <meta name="keywords" content="html,html tutorials contents etc">
-    <meta name="robots" content="INDEX,FOLLOW">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Display property</title>
+    <style> 
 
-    <title>practice</title>
-    <link rel="stylesheet" href="tushar.css">
-    <script src="tushar.js"></script>
+        *{
+            box-sizing: border-box;
+        }
+        header {
+            border: 2px solid red;
+            margin: auto;
+    width: 1200px;
+        }
+
+        img {
+            margin: auto;
+            display: block;
+            width: 34px;
+        }
+
+        h3 {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0px;
+        }
+
+        .box {
+            border: 4px solid black;
+            background-color: grey;
+            margin: 4px 0px;
+            padding: 23px;
+            width: 33%;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+        .container{
+            margin: auto;
+            width: 1200px;
+        }
+    </style>
 </head>
 
 <body>
-    hello i am tushar
-    <h1>i am tushar</h1>
-    <h2>i am tushar</h2>
-    <h3>i am tushar</h3>
-    <h4>i am tushar</h4>
-    <h5>i am tushar</h5>
-    <p>its a paragraph you
-        <hr>know what i am writting paragraphh</p>
-    <p>Lorem ipsum dolor sit amet <strong>tuhsar</strong> adipisicing <b>tuhsar</b>elit. Porro, !</p>
-    <p>Lorem ipsum dolor sit amet <strong>tuhsar</strong> adipisicing <b>tuhsar</b>elit. Porro, !</p>
-    <p>Lorem ipsum dolor sit amet <em><strong>its highlight the text</strong> very intelligent biy</em> adipisicing
-        elit. Exercitationem ipsa dolores nulla officia cum molestiae a, veritatis eaque itaque perspiciatis.</p>
-    <a href="https://google.com" target="_blank">google link</a><br>
-    <a href="https://facebook.com" target="_blank">facebooklink</a><br>
-    <a href="https://twitter.com" target="_blank">twitterlink</a><br>
-    <a href="https://linkedin.com" target="_blank">linkedinlink</a>
-    <br>
-    <a href="tut5.html" target="_blank">its a tutorial five</a><br>
-    <img src="https://source.unsplash.com/user/erondu/daily" alt="Image not found" width="400" height="500">
-    <img src="https://source.unsplash.com/user/erondu/dly" alt="Image not found" width="400" height="500">
-    <ul type="circle">
-        <li>list one </li>
-        <li>list two </li>
-        <ol type="a">
-            <li>its a ordered list</li>
-        </ol>
-        <li>list three </li>
-        <li>list four </li>
-        <li>list five </li>
-    </ul>
-    <ol type="I">
-        <li>list one </li>
-        <li>list two </li>
-        <li>list three </li>
-        <li>list four </li>
-        <li>list five </li>
-    </ol>
-    <!-- table concept -->
-    <table>
-        <caption><strong>Table concept</strong></caption>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Employee</th>
-                <th>salary</th>
-                <th>workhour</th>
-            </tr>
-        </thead>
-        <tbody>
-            <td>Tushar</td>
-            <td>776875</td>
-            <td>1Cr</td>
-            <td>6 hour</td><br>
-            <tr>
-                <td>Xmen</td>
-                <td>54623</td>
-                <td>50k</td>
-                <td>8hour</td>
-            </tr>
-            <tr>
-                <td>tony stark</td>
-                <td>554623</td>
-                <td>100k</td>
-                <td>6hour</td>
-            </tr><br>
-            <tr>
-                <td>paul phoenix</td>
-                <td>54323</td>
-                <td>54k</td>
-                <td>12hour</td>
-            </tr>
-            <tr>
-                <td>tushar ka bhai</td>
-                <td>53423</td>
-                <td>90k</td>
-                <td>9hour</td>
-            </tr>
-        </tbody>
-    </table><br>
-
-    <br>
-    <caption><strong>New Table Concept</strong></caption>
-    <table>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>age</th>
-                <th>work</th>
-                <th>role</th>
-                <th>salary</th>
-
-            </tr>
-
-        </thead>
-        <tbody>
-            <tr>
-                <td>sattu</td>
-                <td>3 yrs</td>
-                <td>playing</td>
-                <td>12 hour</td>
-                <td>0 Rs</td>
-                <!-- <td>Tushar</td> -->
-            </tr>
-            <tr>
-                <td>yash</td>
-                <td>19 yrs</td>
-                <td>Artist</td>
-                <td>7 hour</td>
-                <td>90k Rs</td>
-                <!-- <td>Tushar</td> -->
-            </tr>
-            <tr>
-                <td>bajrangi</td>
-                <td> 19 yrs</td>
-                <td>crow</td>
-                <td> 11 hour</td>
-                <td> 50k Rs</td>
-                <!-- <td>Tushar</td> -->
-            </tr>
-            <tr>
-                <td>varun</td>
-                <td> 19 yrs</td>
-                <td>digital marketing</td>
-                <td> 7 hour</td>
-                <td> 45k Rs</td>
-                <!-- <td>Tushar</td> -->
-            </tr>
-            <tr>
-                <td>Roy</td>
-                <td>24 yrs</td>
-                <td>msician</td>
-                <td>12 hour</td>
-                <td> 69k Rs</td>
-                <!-- <td>Tushar</td> -->
-            </tr>
-
-        </tbody>
-    </table>
-    <strong>Forms concept</strong>
-    <h4>its a html 4 tutorial</h4>
-
-    <form action="backend.py"><br>
-    <label for="name"name>Name</label><br>
-    <div><input type="text" name="name" id="name"></div><br>
-
-    <div>Enter your sirname<input type="text" name="" id=""></div><br>
-    <label for="email">Email</label>
-    <div><input type="email" name="my email" id="email"></div><br>
-    <div>Enter the date: <input type="date" name="birthday" id=""></div><br>
-    <div>enter your bonus: <input type="number" name="" id="">
-    </div><br>
-    <div>checkbox: <input type="checkbox" name="" id="" checked></div><br>
-    <div>Gender: Male<input type="radio" name="Male" id=""> Female <input type="radio" name="female" id=""> other <input
-            type="radio" name="other" id=""></div><br>
-    <div>write about yourself</div>
-    <textarea name="mytext" id="" cols="30" rows="10"></textarea>
-    <div>
-        <select name="mycars" id="">
-            <option value="BMW">BMW</option>
-            <option value="OD">OD</option>
-            <option value="mercedes">mercedes</option>
-        </select>
+    <header class="top">
+        <img src="https://codewithharry.com/static/common/img/photo.png" alt="">
+        <h3>Welcome to Harry's Blog</h3>
+    </header>
+    <div class="container">
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, harum ipsam aliquid deleniti, vitae
+                labore cum laudantium a blanditiis est voluptates dolorum consequuntur. Aliquam corporis, fuga
+                consectetur rerum molestias consequatur tempora natus sed laborum recusandae fugit harum soluta
+                inventore enim. Aspernatur aperiam cum reprehenderit!</p>
+        </div><div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, harum ipsam aliquid deleniti, vitae
+                labore cum laudantium a blanditiis est voluptates dolorum consequuntur. Aliquam corporis, fuga
+                consectetur rerum molestias consequatur tempora natus sed laborum recusandae fugit harum soluta
+                inventore enim. Aspernatur aperiam cum reprehenderit!</p>
+        </div><div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, harum ipsam aliquid deleniti, vitae
+                labore cum laudantium a blanditiis est voluptates dolorum consequuntur. Aliquam corporis, fuga
+                consectetur rerum molestias consequatur tempora natus sed laborum recusandae fugit harum soluta
+                inventore enim. Aspernatur aperiam cum reprehenderit!</p>
+        </div>
     </div>
-    <div>
-        <select name="salary" id="salary">
-            <option value="90k">90k</option>
-            <option value="120k">120k</option>
-            <option value="150k">150k</option>
-            <option value="200k">290k</option>
-        </select>
-    </div><br>
-
-    <div><input type="submit" value="submit now"> <input type="reset" value="reset now"></div>
-</form>
-
-<img src="https://source.unsplash.com/user/erondu/daily" alt="">
-
-<!-- Inline and block elements -->
-<div style="border: 2px solid blue;">its a line</div>
-<!-- div is a block elements -->
-<!-- em is a inline elements -->
-<em style="border: 2px solid purple;">hello how are you all of them</em>
-<!-- span is a inline elements -->
-<span style="border: 2px solid;">hello its me tushar upadghyay</span>
-<!-- p is a block elements -->
-<p style="border: 2px solid purple;">hello</p>
-<!-- strong is a inline elements -->
-<strong style="border: 2px solid black">hello</strong>
-
-<p>hello &#8203; </p>
-<p>hello</p>
-<p>hello</p>
-<p>hello</p>
-<p>hello</p>
-<p>hello</p>
-<p>hello</p>
-<!-- ids and classes in  -->
-<span class="hello">hello</span>
-<span class="class" id="pop"></span>
-<div class="class@pop"></div>
-<div class="div" id="class"></div>
-<span class="html" id="pop"></span>
-<div class="div class olpo iop"></div>
-<div class="div class" id="opo"></div>
-<span class="html class" id="op"></span>
 </body>
-<!-- html entities -->
-<div class="container">its a paragraph</div>
-<div class="container">Lorem, ipsum dolor &nbsp; sit amet consectetur adipisicing elit. Quos aspernatur iste &lt;repellat&gtreqqless; repudiandae eius alias porro odit ad necessitatibus laudantium illum iusto, modi possimus iure officiis architecto ullam &pound; voluptatum. Quam, excepturi eaque mollitia nam distinctio neque &copf;reprehenderit dolores accusantium repudiandae voluptate blanditiis accusamus. Soluta sint voluptates repudiandae iste voluptate, unde excepturi laborum! Fuga sapiente doloremque ab exercitationem atque cumque earum, debitis deleniti, accusamus possimus aspernatur perspiciatis &#8203;quisquam? Doloribus libero voluptas nulla, aperiam dolorem quia animi quisquam beatae quo, officia odit tenetur fugit obcaecati. Veniam eius quasi nemo nostrum ipsum repellendus.</div>
-<!-- semantic elements
-s -->
-<semantic>
-    
-</semantic>
-
-
 
 </html>

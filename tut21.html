@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Patrick+Hand&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 900px;
+            border: 4px solid rgb(16, 141, 47);
+            margin: 55px auto;
+
+
+        }
+
+        .item {
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: rgb(120, 107, 155);
+
+        }
+
+        body {
+            font-family: 'Kaushan Script';
+            font-family: 'Patrick Hand';
+        }
+
+        #fruit{
+            float: left;
+            width: 50%;
+
+        }
+
+        #computer {
+            float:right;
+            /* float: left; */
+            /* clear: both; */
+            width: 48%;
+
+        }
+
+        #stationary {
+            float: both;
+            width: 100%;
+
+        }
+
+        #beast {
+            float: left;
+            width: 100%;
+        }
+        p,h1{
+            text-align: right;
+            text-align: left;
+            text-align: justify;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="fruit" class="item">
+            <h3>Fruits </h3>
+            <p id="fruitp" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae vel voluptatibus aliquam dolor, sed soluta dolorum saepe, neque consequatur nesciunt laborum vitae optio dicta facere asperiores numquam quae, culpa deserunt.
+            </p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer </h3>
+            <p id="computerp" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae vel voluptatibus aliquam dolor, sed soluta dolorum saepe, neque consequatur nesciunt laborum vitae optio dicta facere asperiores numquam quae, culpa deserunt.</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationry </h3>
+            <p id="stationaryp" class="para"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae vel voluptatibus aliquam dolor, sed soluta dolorum saepe, neque consequatur nesciunt laborum vitae optio dicta facere asperiores numquam quae, culpa deserunt.</p>
+        </div>
+        <div id="beast" class="item">
+            <h3>beast </h3>
+            <p id="beastspa" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae vel voluptatibus aliquam dolor, sed soluta dolorum saepe, neque consequatur nesciunt laborum vitae optio dicta facere asperiores numquam quae, culpa deserunt.</p>
+           
+        </div>
+
+    </div>
+</body>
+
+</html>
